@@ -1,0 +1,150 @@
+* {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  transition: 1s all;
+}
+
+#intro {
+	background-color: white;
+	text-align: center;
+	#home_h1 {
+		margin: 7px 0 !important;
+		font-size: 50px;
+		color: #136677;
+		font-family: 'Norican', cursive;
+	}
+	p {
+		font-family: 'Poppins', sans-serif;
+		font-size: 15px;
+		padding: 0 350px 20px 350px;
+	}
+	#h1 {
+		padding: 12px 0 !important;
+		margin: 0;
+		color: #136677;
+		font-size: 50px;
+		font-family: 'Norican', cursive;
+	}
+	a:hover {
+		text-decoration: none;
+		#h1 {
+			color: black;
+			font-size: 55px;
+		}
+	}
+}
+
+table {
+	width: 100%;
+	td {
+		width: 20%;
+	}
+}
+
+#home {
+	color: black;
+	text-align: center;
+	width: 100%;
+	background-image: url(bg1.jpg) !important;
+	height: 100vh;
+  	margin-top: 0px;
+}
+
+#navbar {
+	height: 70px;
+	li>a {
+		color: white;
+	}
+	li:hover {
+		background-color: #136677;
+		a { 
+		color: #136677;
+		background-color: none;
+		}
+	}
+}
+
+.nav-tabs > li > a:hover {
+	background-color: transparent;
+	border: none;
+	border-radius: 0px !important;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    background-color: none;
+}
+
+#resumes, #marketing, #travel, #adventure, #contact {
+	float: left;
+	font-family: 'Norican', cursive;
+	font-size: 30px;
+	text-align: center;
+	width: 20%;
+	height: 70px;
+	margin: 0;
+	background-color: black;
+	color: white;
+	a {
+		padding: 0;	
+		padding: 25px 0;
+	}
+}
+
+#social_media {
+	position: fixed;
+	img {
+		height: 15px;
+		width: 15px;
+	}
+}
+
+ #resumepage, #marketingpage, #travelpage, #adventurepage, #contactpage {
+ 	height: 100vh;
+ 	width: 100%;
+ 	margin-top: 0px;
+	width: 100% !important;
+ }
+
+#resumepage {
+ 	background-image: url(resume.jpeg) !important;
+ }
+
+#marketingpage {
+ 	background-image: url(marketing.jpeg) !important;
+ }
+
+ #travelpage {
+ 	background-image: url(travel.jpg) !important;
+ }
+
+ #travel_info {
+ 	background-color: white;
+ 	text-align: center;
+ 	height: 50%;
+ 	top: 300px;
+ 	p {
+		font-family: 'Poppins', sans-serif;
+		font-size: 15px;
+ 	}
+ }
+
+ #adventurepage {
+ 	background-image: url(adventure.jpg) !important;
+ }
+
+ #vote {
+ 	height: 50%;
+ 	width: auto;
+ }
+
+ #contactpage {
+	background-image: url(contact.jpg);
+}
+
+ #mb_icon {
+ 	height: 50px;
+ 	width: 50px;
+ }

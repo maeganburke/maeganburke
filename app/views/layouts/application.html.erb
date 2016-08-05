@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Meet Maegan.</title>
+
+  <!-- Google Fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Lobster|Norican' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Poppins:400,500,600' rel='stylesheet' type='text/css'>
+
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+
+</head>
+<body>
+	
+	<% if current_page?('/') %>
+		<%= render partial: "layouts/navbar" %>
+	<% else %>
+		<%= render partial: "layouts/navbar_standard" %>
+	<% end %>
+
+	<%= yield %>
+
+</body>
+</html>
