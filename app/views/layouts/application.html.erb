@@ -8,6 +8,9 @@
 
   <title>Meet Maegan.</title>
 
+  <!-- jQuery -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
   <!-- Google Fonts -->
   <link href='https://fonts.googleapis.com/css?family=Lobster|Norican' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Poppins:400,500,600' rel='stylesheet' type='text/css'>
@@ -16,13 +19,16 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
 </head>
 <body>
-	
-	<% if current_page?('/') %>
-		<%= render partial: "layouts/navbar" %>
+
+	<% if current_page?('/blog') %>
+    <%= render partial: "layouts/navbar_blog" %>
 	<% else %>
-		<%= render partial: "layouts/navbar_standard" %>
+		<%= render partial: "layouts/navbar" %>
 	<% end %>
 
 	<%= yield %>
