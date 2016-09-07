@@ -1,0 +1,2 @@
+class TellmaeController < ApplicationController
+end

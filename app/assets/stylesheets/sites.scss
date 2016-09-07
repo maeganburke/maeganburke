@@ -16,13 +16,13 @@ a:hover {
 	text-align: center;
 	#home_h1 {
 		margin: 7px 0 !important;
-		font-size: 50px;
+		font-size: 55px;
 		color: #136677;
-		font-family: 'IM Fell English', serif;
+		font-family: 'Rancho', cursive;
 	}
 	p {
 		font-family: 'Poppins', sans-serif;
-		font-size: 15px;
+		font-size: 17px;
 		padding: 0 350px 20px 350px;
 	}
 	#h1 {
@@ -30,19 +30,25 @@ a:hover {
 		margin: 0;
 		color: #136677;
 		font-size: 50px;
-		font-family: 'IM Fell English', serif;
+		font-family: 'Rancho', cursive;
 	}
 	a:hover {
 		text-decoration: none;
-		#h1 {
-			color: black;
-			font-size: 55px;
-		}
 	}
   span {
     font-weight: bold;
     color: #c28800;
   }
+}
+
+#resume1 {
+  height: 60px;
+  width: auto;
+}
+
+#resume2 {
+  height: 30px;
+  width: auto;
 }
 
 table {
@@ -75,20 +81,10 @@ table {
 	}
 }
 
-.nav-tabs > li > a:hover {
-	background-color: transparent;
-	border: none;
-	border-radius: 0px !important;
-}
-
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-    background-color: none;
-}
-
 #marketing, #resumes, #gohome, #contact {
 	float: left;
-	font-family: 'IM Fell English', serif;
-	font-size: 25px;
+	font-family: 'Rancho', cursive;
+	font-size: 27px;
 	text-align: center;
 	width: 25%;
 	height: 70px;
@@ -114,6 +110,16 @@ table {
  	width: 100%;
  	margin-top: 0px;
 	width: 100% !important;
+}
+
+// home page
+#myCarousel {
+
+}
+
+.img-responsive {
+  height: 370px !important;
+  width: auto !important;
 }
 
 // resume page
@@ -198,7 +204,7 @@ table {
  }
 
  #options:hover {
-   border: 3px solid #c28800;
+   border: 3px solid #136677;
  }
  // add animation here for the border
 
@@ -228,18 +234,17 @@ table {
    }
  }
 
- #resume_samples, #more_info {
+ #resume_samples {
    width: 45%;
    background-color: #c28800;
-   margin-top: 10px;
    border: none;
    border-radius: 3px;
    height: 20px;
+   font-size: 12px !important;
  }
 
- #more_info {
+ #resume_samples:hover {
    background-color: #136677;
-   margin-left: 3px;
  }
 
 // marketing page
@@ -392,7 +397,7 @@ table {
 
 #gohome_blog, #contact_blog {
   float: left;
-  font-family: 'IM Fell English', serif;
+  font-family: 'Rancho', cursive;
   font-size: 30px;
   text-align: center;
   width: 50%;

@@ -1,2 +1,5 @@
 $('#myModal').modal();
-$('.carousel').carousel()
+
+$('#myCarousel').carousel({
+  interval: 10000
+})
