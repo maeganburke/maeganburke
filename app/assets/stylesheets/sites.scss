@@ -41,23 +41,7 @@ a:hover {
   }
 }
 
-#resume1 {
-  height: 60px;
-  width: auto;
-}
-
-#resume2 {
-  height: 30px;
-  width: auto;
-}
-
-table {
-	width: 100%;
-	td {
-		width: 20%;
-	}
-}
-
+// homepage
 #home {
 	color: black;
 	text-align: center;
@@ -79,6 +63,18 @@ table {
 		background-color: none;
 		}
 	}
+}
+
+#home_resumes {
+  img {
+    height: 300px;
+    width: auto;
+  }
+}
+
+#horizontal_resume {
+  height: 250px !important;
+  width: auto;
 }
 
 #marketing, #resumes, #gohome, #contact {

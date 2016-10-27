@@ -1,0 +1,12 @@
+{
+	"name": "Maegan Burke",
+	"icons": [
+		{
+			"src": "/assets/favicon/android-chrome-192x192-8ba3778039362c8041d4d9d8af8d3e5b475cbb81f66970fd03752c72414e6cac.png",
+			"sizes": "192x192",
+			"type": "image\/png"
+		}
+	],
+	"theme_color": "#ffffff",
+	"display": "standalone"
+}
