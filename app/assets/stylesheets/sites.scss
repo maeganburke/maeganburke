@@ -3,8 +3,14 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+
   width: 100%;
   transition: 50ms all;
+  font-family: 'Open Sans', sans-serif;
+}
+
+html {
+  background-color: #394760;
 }
 
 a:hover {
@@ -12,25 +18,31 @@ a:hover {
 }
 
 #intro {
-	background-color: rgba(255, 255, 255, 0.8);
+	background-color: #394760;
+  color: white;
 	text-align: center;
+  height: 10%;
 	#home_h1 {
 		margin: 7px 0 !important;
-		font-size: 55px;
-		color: #136677;
-		font-family: 'Rancho', cursive;
+		font-size: 34px;
+		color: white;
+		font-family: 'Sansita', sans-serif;
 	}
-	p {
-		font-family: 'Poppins', sans-serif;
+	p, h3 {
+		font-family: 'Open Sans', sans-serif;
 		font-size: 17px;
-		padding: 0 350px 20px 350px;
 	}
+  h3 {
+    margin-top: 10px;
+    font-size: 13px;
+    padding-bottom: 10px;
+  }
 	#h1 {
 		padding: 12px 0 !important;
 		margin: 0;
-		color: #136677;
-		font-size: 50px;
-		font-family: 'Rancho', cursive;
+		color: #c28800;
+		font-size: 45px;
+		font-family: 'Open Sans', sans-serif;
 	}
 	a:hover {
 		text-decoration: none;
@@ -41,378 +53,152 @@ a:hover {
   }
 }
 
-// homepage
-#home {
-	color: black;
-	text-align: center;
-	width: 100%;
-	background-image: url(bg1.jpg) !important;
-	height: 100vh;
-  	margin-top: 0px;
+hr {
+  width: 270px;
+  border-top: black solid 1.5px !important;
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
 }
 
-#main_navbar {
-	height: 70px;
-	li>a {
-		color: white;
-	}
-	li:hover {
-		background-color: #136677;
-		a {
-		color: #136677;
-		background-color: none;
-		}
-	}
+#mini {
+  border-top: 1px solid #9e9e9e !important;
+  width: 220px;
 }
 
-#home_resumes {
-  img {
-    height: 300px;
-    width: auto;
+#home_image {
+  height: 90%;
+}
+
+// section 1
+#section_1 {
+  height: 400px;
+  background-color: #2d2f34 !important;
+  color: white;
+}
+
+#section_1_row {
+  background-color: #2d2f34 !important;
+  padding-top: 40px;
+  h2 {
+    font-size: 34px;
+  }
+  font-size: 20px;
+  .col-md-4 {
+    padding: 0px;
   }
 }
 
-#horizontal_resume {
-  height: 250px !important;
+#section_2 {
+  height: 250px;
+  background-color: #37284d !important;
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+
+#section_2_row {
+  margin: 0;
+}
+
+#benefit_1 {
+  background-color: #394760 !important;
+  height: 250px;
+}
+
+#benefit_2 {
+  background-color: #583c77 !important;
+  height: 250px;
+}
+
+#benefit_3 {
+  background-color: #305f4f !important;
+  height: 250px;
+}
+
+#benefit_icon {
+  height: 50px;
   width: auto;
 }
 
-#marketing, #resumes, #gohome, #contact {
-	float: left;
-	font-family: 'Rancho', cursive;
-	font-size: 27px;
-	text-align: center;
-	width: 25%;
-	height: 70px;
-	margin: 0;
-	background-color: rgba(0, 0, 0, 0.9);
-	color: white;
-	a {
-		padding: 0;
-		padding: 25px 0;
-	}
-}
-
-#social_media {
-	position: fixed;
-	img {
-		height: 15px;
-		width: 15px;
-	}
-}
-
-#resumepage, #marketingpage, #englishpage, #adventurepage, #contactpage {
- 	height: 100vh;
- 	width: 100%;
- 	margin-top: 0px;
-	width: 100% !important;
-}
-
-// home page
-#myCarousel {
-
-}
-
-.img-responsive {
-  height: 370px !important;
-  width: auto !important;
-}
-
-// resume page
-#resumepage {
- 	background-image: url(resume.jpeg) !important;
-}
-
-#sample {
- 	img {
- 		height: 500px;
- 		width: auto;
- 		padding: 10px;
- 	}
- 	float: left;
-	margin: 10px 0;
-	width: 900px;
-	background-color: rgba(0, 0, 0, 0.6);
-	border-radius: 7px;
-	.copy {
-		margin: 10px 0;
-	}
-	p, {
-		font-family: 'Poppins', sans-serif;
-		font-size: 15px;
-		color: white;
-		text-align: center;
- 	}
- }
-
- #resume_content {
-   background-color: rgba(0, 0, 0, 0.8);
-   width: 90%;
-   height: 475px;
-   text-align: center;
-   color: white;
-   margin: 35px 0 0 5%;
-   border-radius: 3px;
-   #payment {
-     font-family: 'Poppins', sans-serif;
-     font-style: italic;
-     font-size: 10px;
-     margin-top: 10px;
-   }
- }
-
- #resume_header {
-   text-align: center;
-   font-family: 'Poppins', sans-serif;
-   font-size: 17px;
-   margin: 10px 0;
-   padding: 30px 0 0 0;
-   width: 80%;
-   margin-left: 10%;
- }
-
- #resume_options {
-   margin: 0;
-   text-align: center;
-   margin-left: 5%;
- }
-
- #options {
-   text-align: center;
-   background-color: white;
-   height: 300px;
-   width: 22%;
-   border-radius: 3px;
-   margin: 5px;
-   padding: 7px 0;
-   border: 3px solid white;
-   span {
-     color: #136677;
-     font-family: 'Poppins', sans-serif;
-     font-size: 18px;
-     font-weight: bold;
-   }
-   hr {
-     border-bottom: 1px solid gray;
-     margin-bottom: 15px;
-     width: 70%;
-   }
- }
-
- #options:hover {
-   border: 3px solid #136677;
- }
- // add animation here for the border
-
- #options_content {
-   height: 77%;
-   h {
-     color: #c28800;
-     font-weight: bold;
-     font-size: 14px;
-   }
-   p, ul {
-     color: black;
-     font-family: 'Poppins', sans-serif;
-     font-size: 11px;
-     width: 90%;
-     margin-left: 5%;
-     margin-top: 10px;
-   }
-   p {
-     height: 50px;
-   }
-   ul {
-     text-align: left;
-     font-size: 10px;
-     width: 100%;
-     margin-left: -9px;
-   }
- }
-
- #resume_samples {
-   width: 45%;
-   background-color: #c28800;
-   border: none;
-   border-radius: 3px;
-   height: 20px;
-   font-size: 12px !important;
- }
-
- #resume_samples:hover {
-   background-color: #136677;
- }
-
-// marketing page
-#marketingpage {
- 	background-image: url(marketing.jpeg) !important;
- 	img {
- 		height: 450px;
- 		width: auto;
- 		margin: 70px 0 0 100px;
- 	}
- }
-
- #englishpage {
- 	background-image: url(travel.jpg) !important;
-  img {
- 		height: 450px;
- 		width: auto;
- 		margin: 70px 0 0 100px;
- 	}
- }
-
- #travel_info {
-	background-color: rgba(0, 0, 0, 0.6);
-	color: white;
-	height: 200px;
-	width: 50%;
-	text-align: center;
-	border-radius: 7px;
-	margin: 150px 0;
- 	img {
- 		margin: 20px 0;
- 		height: 70px;
- 		width: auto;
- 	}
- 	p {
-		font-family: 'Poppins', sans-serif;
-		font-size: 15px;
-		width: 70%;
- 	}
- }
-
- #vote {
- 	height: 50%;
- 	width: auto;
- }
-
- #contactpage {
-	background-image: url(contact.jpg);
-}
-
-// adventure page
- #adventurepage {
- 	background-image: url(adventure.jpg) !important;
- }
-
-.adventure_section {
-	background-color: rgba(0, 0, 0, 0.6);
-	color: white;
-	height: 60%;
-	width: 60%;
-	text-align: center;
-	border-radius: 7px;
-	margin-top: 20px;
-	p {
-		font-family: 'Poppins', sans-serif;
-		font-size: 15px;
-		padding: 20px 30px 0;
- 	}
-}
-
-.options {
-	background-color: rgba(19, 102, 118, 0.6);
-	text-align: center;
-	margin: 20px 10px;
-	border-radius: 7px;
-	height: 300px;
-	h2, h3 {
- 		font-family: 'Poppins', sans-serif;
-		font-size: 19px;
-		color: white;
- 	}
- 	img {
- 		width: 350px;
- 		border-radius: 3px;
- 	}
-}
-
-#page3 {
-	a:hover {
-		text-decoration: none;
-	}
-}
-
-#vote {
-	background-color: rgba(0, 0, 0, 0.6);
-	color: white;
-	height: 30px;
-	width: 870px;
-	border-radius: 7px;
-	text-align: center;
-	font-family: 'Poppins', sans-serif;
-	font-size: 15px;
-	color: white;
-	border: none;
-}
-
-// contact page
-.contact_section {
-	margin: 0 auto;
-	#contact_email, #contact_soundcloud, #contact_instagram, #contact_github {
-		background-color: rgba(0, 0, 0, 0.6);
-		color: white;
-		height: 200px;
-		width: 20%;
-		text-align: center;
-		border-radius: 7px;
-		margin: 120px 30px 0;
-	}
-	#contact_email:hover, #contact_soundcloud:hover, #contact_instagram:hover, #contact_github:hover {
-		-webkit-transform: rotate(-7deg);
-		background-color: #c28800;
-		-webkit-transition-duration: 50ms;
-	}
-	img {
-		height: 50px;
-		width: auto;
-		margin: 50px 0 20px;
-	}
-	p {
-		font-family: 'Poppins', sans-serif;
-		font-size: 16px;
- 	}
-}
-
-#carousel-example-generic {
-  height: 100%;
-}
-
-// /custom_resume_design
-#custom_resumes {
-  background-image: url(resumes_background.jpg);
+#signup {
+  height: 125px;
   width: 100%;
-  height: auto;
 }
 
-// blog page
-#blog {
-  margin-top: 50px;
+#form {
+  width: 70%;
+  input {
+    width: 70%;
+  }
 }
 
-#gohome_blog, #contact_blog {
-  float: left;
-  font-family: 'Rancho', cursive;
-  font-size: 30px;
-  text-align: center;
-  width: 50%;
-  height: 50px;
-  margin: 0;
-  background-color: #fafafa !important;
+#subscribe_button {
+    background-color: #2d2f34 !important;
+}
+
+#section_3 {
+  background-image: url(bg2.png);
   color: white;
-  a {
-    color: #12262F !important;
-    padding: 0;
-    padding: 15px 0;
-  }
-  li > a hover {
-    background-color: #12262F !important;
-    color: #fafafa !important;
+  text-align: center;
+  width: 100%;
+  height: 650px;
+  font-size: 20px;
+}
+
+#section_3_row {
+  margin: 0;
+}
+
+#content {
+  padding-top: 150px;
+  width: 80%;
+  margin-left: 10%;
+  ul {
+    font-size: 18px;
   }
 }
 
-#gohome_blog:hover, #contact_blog:hover {
-  background-color: #12262F !important;
-  color: #fafafa !important;
+#testimonial_1 {
+  text-align: center;
+  background-color: #394760 !important;
+  height: 250px;
+  color: white;
+}
+
+#testimonial_2 {
+  text-align: center;
+  background-color: #583c77 !important;
+  height: 250px;
+  color: white;
+}
+
+#testimonial_3 {
+  text-align: center;
+  background-color: #305f4f !important;
+  height: 250px;
+  color: white;
+}
+
+#section_4_row {
+  margin: 0;
+}
+
+#section_5 {
+  background-image: url(bg3.jpg);
+  color: white;
+  text-align: center;
+  width: 100%;
+  height: 650px;
+  font-size: 20px;
+}
+
+#section_7 {
+  background-color: #305f4f;
+  height: 200px;
+  font-size: 12px;
+  color: white;
+}
+
+#oren_content {
+  padding-top: 32px;
 }
