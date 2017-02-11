@@ -79,12 +79,12 @@ hr {
 #section_1_row {
   background-color: #2d2f34 !important;
   padding-top: 40px;
-  h2 {
-    font-size: 34px;
-  }
-  font-size: 20px;
+  font-size: 18px;
   .col-md-4 {
     padding: 0px;
+    ul {
+      padding-right: 10px;
+    }
   }
 }
 
@@ -115,6 +115,11 @@ hr {
   height: 250px;
 }
 
+#benefit_4 {
+  background-color: #305f4f !important;
+  height: 250px;
+}
+
 #benefit_icon {
   height: 50px;
   width: auto;
@@ -141,7 +146,7 @@ hr {
   color: white;
   text-align: center;
   width: 100%;
-  height: 650px;
+  height: 700px;
   font-size: 20px;
 }
 
@@ -150,7 +155,6 @@ hr {
 }
 
 #content {
-  padding-top: 150px;
   width: 80%;
   margin-left: 10%;
   ul {
@@ -190,6 +194,18 @@ hr {
   width: 100%;
   height: 650px;
   font-size: 20px;
+}
+
+#section_6 {
+  background-color: #394760;
+  height: 200px;
+  font-size: 12px;
+  color: white;
+  text-align: center;
+}
+
+#student_content {
+  padding-top: 32px;
 }
 
 #section_7 {

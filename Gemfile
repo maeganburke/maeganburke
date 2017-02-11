@@ -2,8 +2,9 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'pg', '~> 0.18.4'
 gem 'rails', '4.2.5'
+gem 'sqlite3', '~> 1.3', '>= 1.3.11'
+gem 'pg', '~> 0.18.4'
 # Use sqlite3 as the database for Active Record
 # Use SCSS for stylesheets
 gem 'bootstrap-sass', '~> 3.3.6'
