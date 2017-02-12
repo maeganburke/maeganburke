@@ -3,7 +3,6 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-
   width: 100%;
   transition: 50ms all;
   font-family: 'Open Sans', sans-serif;
@@ -17,17 +16,35 @@ a:hover {
 	text-decoration: none;
 }
 
+#home {
+  height: 650px;
+  margin: 0;
+  .col-lg-4 {
+    padding: 0;
+  }
+}
+
+#temp {
+  background-color: #4d0b00;
+  height: 100%;
+}
+
 #intro {
+  height: 100%;
 	background-color: #394760;
   color: white;
 	text-align: center;
-  height: 10%;
 	#home_h1 {
+    padding-top: 110px;
 		margin: 7px 0 !important;
-		font-size: 34px;
+		font-size: 50px;
 		color: white;
 		font-family: 'Sansita', sans-serif;
 	}
+  span {
+    color: white !important;
+    font-size: 20px;
+  }
 	p, h3 {
 		font-family: 'Open Sans', sans-serif;
 		font-size: 17px;
@@ -72,18 +89,19 @@ hr {
 // section 1
 #section_1 {
   height: 400px;
-  background-color: #2d2f34 !important;
-  color: white;
+  background-color: white !important;
+  color: #2d2f34;
 }
 
 #section_1_row {
-  background-color: #2d2f34 !important;
+  background-color: white !important;
   padding-top: 40px;
   font-size: 18px;
   .col-md-4 {
     padding: 0px;
     ul {
       padding-right: 10px;
+      padding-top: 30px !important;
     }
   }
 }
@@ -94,6 +112,8 @@ hr {
   color: white;
   text-align: center;
   width: 100%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
 }
 
 #section_2_row {
@@ -111,7 +131,7 @@ hr {
 }
 
 #benefit_3 {
-  background-color: #305f4f !important;
+  background-color: #2d2f34 !important;
   height: 250px;
 }
 
@@ -120,33 +140,64 @@ hr {
   height: 250px;
 }
 
+#benefit_1, #benefit_2, #benefit_3, #benefit_4 {
+
+}
+
+.benefits {
+  padding-top: 65px;
+}
+
 #benefit_icon {
   height: 50px;
   width: auto;
 }
 
 #signup {
-  height: 125px;
+  // height: 125px;
   width: 100%;
+  padding: 10px 0;
+}
+
+#mc_embed_signup_scroll {
+  input {
+    width: 80%;
+  }
+}
+
+#mc_embed_signup input.email {
+  width: 500px !important;
+}
+
+.form {
+
+}
+
+.email {
+  width: 60%;
 }
 
 #form {
-  width: 70%;
+  // width: 70%;
   input {
-    width: 70%;
+    width: 50%;
   }
 }
 
 #subscribe_button {
-    background-color: #2d2f34 !important;
+  background-color: #2d2f34 !important;
+  width: 500px !important;
+  padding: 0 !important;
+  margin-top: 5px !important;
 }
 
 #section_3 {
-  background-image: url(bg2.png);
+  // background-image: url(bg2.jpg);
+  background-color: #4d0b00;
   color: white;
   text-align: center;
   width: 100%;
-  height: 700px;
+  height: 880px;
   font-size: 20px;
 }
 
@@ -155,10 +206,25 @@ hr {
 }
 
 #content {
-  width: 80%;
-  margin-left: 10%;
-  ul {
+  padding-top: 50px;
+  width: 100%;
+  p {
     font-size: 18px;
+    width: 60%;
+    margin-left: 20%;
+  }
+  ul {
+    font-size: 15px;
+  }
+  h2 {
+    font-size: 17px;
+    margin-top: 20px;
+  }
+}
+
+.col-md-6 {
+  iframe {
+    box-shadow: 0px 0px 7px 7px #000000;
   }
 }
 
@@ -188,12 +254,25 @@ hr {
 }
 
 #section_5 {
-  background-image: url(bg3.jpg);
+  // background-image: url(bg3.jpg);
+  background-color: #4d0b00;
   color: white;
   text-align: center;
   width: 100%;
-  height: 650px;
+  height: 450px;
   font-size: 20px;
+  #content {
+    padding-top: 20px;
+    h2 {
+      font-size: 22px;
+    }
+    h3 {
+      font-size: 20px;
+    }
+    ul {
+      font-size: 17px;
+    }
+  }
 }
 
 #section_6 {
@@ -201,11 +280,12 @@ hr {
   height: 200px;
   font-size: 12px;
   color: white;
-  text-align: center;
+  text-align: left;
 }
 
 #student_content {
-  padding-top: 32px;
+  padding-top: 20px;
+  margin-left: 20px;
 }
 
 #section_7 {
@@ -216,5 +296,5 @@ hr {
 }
 
 #oren_content {
-  padding-top: 32px;
+  padding-top: 20px;
 }
