@@ -36,6 +36,7 @@ a:hover {
 	text-align: center;
 	#home_h1 {
     padding-top: 110px;
+    padding-bottom: 20px;
 		margin: 7px 0 !important;
 		font-size: 50px;
 		color: white;
@@ -44,6 +45,7 @@ a:hover {
   span {
     color: white !important;
     font-size: 20px;
+    line-height: 40px;
   }
 	p, h3 {
 		font-family: 'Open Sans', sans-serif;
@@ -192,12 +194,12 @@ hr {
 }
 
 #section_3 {
-  // background-image: url(bg2.jpg);
+  // background-image: url(bg2.JPG);
   background-color: #4d0b00;
   color: white;
   text-align: center;
   width: 100%;
-  height: 880px;
+  height: 690px;
   font-size: 20px;
 }
 
@@ -249,11 +251,28 @@ hr {
   color: white;
 }
 
-#section_4_row {
+#section_5 {
+  h2 {
+    text-align: center;
+    font-size: 19px;
+  }
+  font-size: 16px;
+  line-height: 30px;
+  background-color: #2d2f34 !important;
+  margin: 0;
+  color: white;
+  height: 270px;
+}
+
+#section_5_row {
   margin: 0;
 }
 
-#section_5 {
+#course_photo {
+  background-color: #4d0b00;
+}
+
+#section_6 {
   // background-image: url(bg3.jpg);
   background-color: #4d0b00;
   color: white;
@@ -275,26 +294,26 @@ hr {
   }
 }
 
-#section_6 {
+#section_7 {
   background-color: #394760;
-  height: 200px;
-  font-size: 12px;
+  height: 300px;
+  font-size: 14px;
   color: white;
   text-align: left;
 }
 
 #student_content {
-  padding-top: 20px;
+  padding-top: 60px;
   margin-left: 20px;
 }
 
-#section_7 {
+#section_8 {
   background-color: #305f4f;
-  height: 200px;
-  font-size: 12px;
+  height: 300px;
+  font-size: 14px;
   color: white;
 }
 
 #oren_content {
-  padding-top: 20px;
+  padding-top: 45px;
 }
