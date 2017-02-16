@@ -24,8 +24,13 @@ a:hover {
   }
 }
 
-#temp {
-  background-color: #4d0b00;
+#intro1 {
+  background-image: url(intro1.png);
+  height: 100%;
+}
+
+#intro2 {
+  background-image: url(intro2.png);
   height: 100%;
 }
 
@@ -171,10 +176,6 @@ hr {
   width: 500px !important;
 }
 
-.form {
-
-}
-
 .email {
   width: 60%;
 }
@@ -195,25 +196,23 @@ hr {
 
 #section_3 {
   // background-image: url(bg2.JPG);
-  background-color: #4d0b00;
-  color: white;
-  text-align: center;
+  height: 400px;
+  color: #2d2f34;
+  text-align: left;
   width: 100%;
-  height: 690px;
+  font-family: 'Open Sans', sans-serif;
   font-size: 20px;
+  background-color: white;
 }
 
 #section_3_row {
   margin: 0;
+  padding-top: 30px;
 }
 
 #content {
-  padding-top: 50px;
-  width: 100%;
   p {
     font-size: 18px;
-    width: 60%;
-    margin-left: 20%;
   }
   ul {
     font-size: 15px;
@@ -230,90 +229,221 @@ hr {
   }
 }
 
+#section_4 {
+  color: white;
+  width: 100%;
+  height: 1000px;
+  font-size: 20px;
+  text-align: center;
+  margin: 0;
+  background-image: url(thiscourse.png);
+}
+
+#course_row {
+  margin: 0;
+  text-align: center;
+  width: 90%;
+  margin-left: 5%;
+  p {
+    margin-top: 20px;
+  }
+}
+
+#icon_div {
+  margin-bottom: 20px;
+}
+
+.circle_icon {
+  border-radius: 50%;
+  background-color: #305f4f;
+  height: 200px;
+  width: 200px;
+  margin: auto;
+  margin: 0;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  margin-left: 75px;
+  img {
+    height: 120px;
+    width: auto;
+    margin-top: 40px;
+  }
+  p {
+    margin-bottom: 20px;
+  }
+}
+
+#section_4_content {
+  h2 {
+    text-align: center;
+    font-size: 38px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+  }
+}
+
+#course_photo {
+  background-color: #4d0b00;
+  margin: 0;
+}
+
 #testimonial_1 {
   text-align: center;
   background-color: #394760 !important;
-  height: 250px;
+  height:550px;
   color: white;
 }
 
 #testimonial_2 {
   text-align: center;
   background-color: #583c77 !important;
-  height: 250px;
+  height:550px;
   color: white;
 }
 
 #testimonial_3 {
   text-align: center;
   background-color: #305f4f !important;
-  height: 250px;
+  height:550px;
   color: white;
+}
+
+.testimony_picture {
+  height: 200px;
+  width: auto;
+  padding: 15px 0;
 }
 
 #section_5 {
   h2 {
+    padding-top: 20px;
     text-align: center;
-    font-size: 19px;
+    font-size: 23px;
+    font-family: 'Sansita', sans-serif;
   }
-  font-size: 16px;
-  line-height: 30px;
-  background-color: #2d2f34 !important;
+  p {
+
+  }
+  font-size: 15px;
+  line-height: 28px;
   margin: 0;
   color: white;
-  height: 270px;
+  height: 550px;
 }
 
 #section_5_row {
   margin: 0;
 }
 
-#course_photo {
-  background-color: #4d0b00;
-}
-
 #section_6 {
-  // background-image: url(bg3.jpg);
-  background-color: #4d0b00;
+  background-color: #2d2f34;
   color: white;
   text-align: center;
   width: 100%;
-  height: 450px;
+  height: 600px;
   font-size: 20px;
   #content {
-    padding-top: 20px;
+    padding-top: 45px;
     h2 {
-      font-size: 22px;
+      font-size: 23px;
+      line-height: 33px;
     }
     h3 {
-      font-size: 20px;
+      font-size: 21px;
+      margin-bottom: 0;
     }
     ul {
-      font-size: 17px;
+      line-height: 35px;
+      font-size: 20px;
     }
   }
 }
 
 #section_7 {
   background-color: #394760;
-  height: 300px;
-  font-size: 14px;
+  background-image: url(group.png);
+  height: 600px;
+  font-size: 23px;
   color: white;
-  text-align: left;
+  text-align: center;
 }
 
 #student_content {
-  padding-top: 60px;
-  margin-left: 20px;
+  padding-top: 160px;
 }
 
 #section_8 {
   background-color: #305f4f;
-  height: 300px;
-  font-size: 14px;
+  height: 500px;
+  font-size: 17px;
   color: white;
+  text-align: center;
+  p {
+    width: 70%;
+    margin-left: 15%;
+  }
 }
 
 #oren_content {
-  padding-top: 45px;
+  padding-top: 35px;
+}
+
+#oren_pic {
+  height: 250px;
+  width: auto;
+  // margin: 20px 0 0 200px;
+}
+
+#section_9 {
+  h2 {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 23px;
+    font-family: 'Sansita', sans-serif;
+  }
+  p {
+
+  }
+  font-size: 15px;
+  line-height: 28px;
+  margin: 0;
+  color: white;
+  height: 310px;
+}
+
+#section_9_row {
+  margin: 0;
+}
+
+#video_1, #video_2, #video_3 {
+  iframe {
+    padding-top: 35px;
+  }
+  text-align: center;
+  background-color: #2d2f34 !important;
+  height: 310px;
+  color: white;
+}
+
+#section_10 {
+  height: 500px;
+  background-color: #2d2f34 !important;
+  text-align: center;
+  #email_oren {
+    a {
+      color: #2d2f34 !important;
+    }
+    a:hover {
+      text-decoration: none;
+      color: #305f4f;
+    }
+    margin-left: 440px;
+    background-color: white;
+    width: 400px;
+    height: 30px;
+    margin-top: 10px;
+    color: #2d2f34 !important;
+    border-radius: 3px;
+    font-size: 20px;
+  }
 }
