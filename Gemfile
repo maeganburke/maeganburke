@@ -7,6 +7,7 @@ gem 'pg', '~> 0.18.4'
 # Use sqlite3 as the database for Active Record
 gem 'bootstrap-sass', '~> 3.3.6'
 gem 'sass-rails', '~> 5.0'
+gem 'sqlite3'
 # Use Uglifier as compressor for JavaScript assets
 gem 'autoprefixer-rails'
 gem 'uglifier', '>= 1.3.0'
