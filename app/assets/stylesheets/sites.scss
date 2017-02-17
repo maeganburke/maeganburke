@@ -96,12 +96,12 @@ hr {
 // section 1
 #section_1 {
   height: 400px;
-  background-color: white !important;
+  background-color: #d5dff1 !important;
   color: #2d2f34;
 }
 
 #section_1_row {
-  background-color: white !important;
+  background-color: #d5dff1 !important;
   padding-top: 40px;
   font-size: 18px;
   .col-md-4 {
@@ -120,7 +120,7 @@ hr {
   text-align: center;
   width: 100%;
   font-family: 'Open Sans', sans-serif;
-  font-size: 20px;
+  font-size: 24px;
 }
 
 #section_2_row {
@@ -174,6 +174,8 @@ hr {
 
 #mc_embed_signup input.email {
   width: 500px !important;
+  height: 50px !important;
+  border: 3px #394760 solid !important;
 }
 
 .email {
@@ -188,10 +190,15 @@ hr {
 }
 
 #subscribe_button {
-  background-color: #2d2f34 !important;
+  background-color: #841023 !important;
   width: 500px !important;
   padding: 0 !important;
   margin-top: 5px !important;
+  height: 50px !important;
+}
+
+#mc_embed_signup.button {
+  font-size: 20px;
 }
 
 #section_3 {
@@ -202,7 +209,7 @@ hr {
   width: 100%;
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
-  background-color: white;
+  background-color: #d5dff1;
 }
 
 #section_3_row {
@@ -233,7 +240,7 @@ hr {
   color: white;
   width: 100%;
   height: 1000px;
-  font-size: 20px;
+  font-size: 25px;
   text-align: center;
   margin: 0;
   background-image: url(thiscourse.png);
@@ -256,17 +263,17 @@ hr {
 .circle_icon {
   border-radius: 50%;
   background-color: #305f4f;
-  height: 200px;
-  width: 200px;
+  height: 170px;
+  width: 170px;
   margin: auto;
   margin: 0;
   margin-top: 30px;
-  margin-bottom: 50px;
-  margin-left: 75px;
+  margin-bottom: 35px;
+  margin-left: 90px;
   img {
-    height: 120px;
+    height: 100px;
     width: auto;
-    margin-top: 40px;
+    margin-top: 30px;
   }
   p {
     margin-bottom: 20px;
@@ -421,23 +428,16 @@ hr {
     padding-top: 35px;
   }
   text-align: center;
-  background-color: #2d2f34 !important;
+  background-color: #d5dff1 !important;
   height: 310px;
   color: white;
 }
 
 #section_10 {
   height: 500px;
-  background-color: #2d2f34 !important;
+  background-color: #d5dff1 !important;
   text-align: center;
   #email_oren {
-    a {
-      color: #2d2f34 !important;
-    }
-    a:hover {
-      text-decoration: none;
-      color: #305f4f;
-    }
     margin-left: 440px;
     background-color: white;
     width: 400px;
