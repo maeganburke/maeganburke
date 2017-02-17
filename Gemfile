@@ -7,7 +7,6 @@ gem 'pg', '~> 0.18.4'
 # Use sqlite3 as the database for Active Record
 gem 'bootstrap-sass', '~> 3.3.6'
 gem 'sass-rails', '~> 5.0'
-gem 'sqlite3'
 # Use Uglifier as compressor for JavaScript assets
 gem 'autoprefixer-rails'
 gem 'uglifier', '>= 1.3.0'
@@ -39,6 +38,7 @@ gem 'rails_12factor', group: :production
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
+  gem 'sqlite3', '~> 1.3', '>= 1.3.11'
 end
 
 group :development do
