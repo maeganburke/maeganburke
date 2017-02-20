@@ -4,7 +4,7 @@
   width: 100%;
   -webkit-transition: 50ms all;
   transition: 50ms all;
-  font-family: 'Open Sans', sans-serif;
+  'Roboto', sans-serif;
 }
 
 /* line 11, /Users/Maegan/Desktop/Dev/Oren2/app/assets/stylesheets/sites.scss */
@@ -53,7 +53,7 @@ a:hover {
   margin: 7px 0 !important;
   font-size: 50px;
   color: white;
-  font-family: 'Sansita', sans-serif;
+  font-family: 'Pangolin', cursive;
 }
 /* line 50, /Users/Maegan/Desktop/Dev/Oren2/app/assets/stylesheets/sites.scss */
 #intro span {
@@ -63,7 +63,7 @@ a:hover {
 }
 /* line 55, /Users/Maegan/Desktop/Dev/Oren2/app/assets/stylesheets/sites.scss */
 #intro p, #intro h3 {
-  font-family: 'Open Sans', sans-serif;
+  'Roboto', sans-serif;
   font-size: 17px;
 }
 /* line 59, /Users/Maegan/Desktop/Dev/Oren2/app/assets/stylesheets/sites.scss */
@@ -78,7 +78,7 @@ a:hover {
   margin: 0;
   color: #c28800;
   font-size: 45px;
-  font-family: 'Open Sans', sans-serif;
+  'Roboto', sans-serif;
 }
 /* line 71, /Users/Maegan/Desktop/Dev/Oren2/app/assets/stylesheets/sites.scss */
 #intro a:hover {
@@ -139,7 +139,7 @@ hr {
   color: white;
   text-align: center;
   width: 100%;
-  font-family: 'Open Sans', sans-serif;
+  'Roboto', sans-serif;
   font-size: 20px;
 }
 
@@ -218,18 +218,18 @@ hr {
 }
 
 /* line 197, /Users/Maegan/Desktop/Dev/Oren2/app/assets/stylesheets/sites.scss */
-#section_3 {
+#overview {
   height: 400px;
   color: #2d2f34;
   text-align: left;
   width: 100%;
-  font-family: 'Open Sans', sans-serif;
+  'Roboto', sans-serif;
   font-size: 20px;
   background-color: white;
 }
 
 /* line 208, /Users/Maegan/Desktop/Dev/Oren2/app/assets/stylesheets/sites.scss */
-#section_3_row {
+#overview_row {
   margin: 0;
   padding-top: 30px;
 }
@@ -254,7 +254,7 @@ hr {
 }
 
 /* line 232, /Users/Maegan/Desktop/Dev/Oren2/app/assets/stylesheets/sites.scss */
-#section_4 {
+#curriculum {
   color: white;
   width: 100%;
   height: 1000px;
@@ -305,7 +305,7 @@ hr {
 }
 
 /* line 277, /Users/Maegan/Desktop/Dev/Oren2/app/assets/stylesheets/sites.scss */
-#section_4_content h2 {
+#curriculum_content h2 {
   text-align: center;
   font-size: 38px;
   padding-top: 40px;
@@ -362,7 +362,7 @@ hr {
   padding-top: 20px;
   text-align: center;
   font-size: 23px;
-  font-family: 'Sansita', sans-serif;
+  font-family: 'Pangolin', cursive;
 }
 
 /* line 334, /Users/Maegan/Desktop/Dev/Oren2/app/assets/stylesheets/sites.scss */
@@ -453,7 +453,7 @@ hr {
   padding-top: 20px;
   text-align: center;
   font-size: 23px;
-  font-family: 'Sansita', sans-serif;
+  font-family: 'Pangolin', cursive;
 }
 
 /* line 415, /Users/Maegan/Desktop/Dev/Oren2/app/assets/stylesheets/sites.scss */

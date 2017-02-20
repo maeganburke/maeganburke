@@ -5,7 +5,7 @@
   background-size: cover;
   width: 100%;
   transition: 50ms all;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 html {
@@ -45,15 +45,15 @@ a:hover {
 		margin: 7px 0 !important;
 		font-size: 50px;
 		color: white;
-		font-family: 'Sansita', sans-serif;
+		font-family: 'Pangolin', cursive;
 	}
   span {
-    color: white !important;
+    color: #DDEDC7 !important;
     font-size: 20px;
     line-height: 40px;
   }
 	p, h3 {
-		font-family: 'Open Sans', sans-serif;
+		font-family: 'Roboto', sans-serif;
 		font-size: 17px;
 	}
   h3 {
@@ -66,7 +66,7 @@ a:hover {
 		margin: 0;
 		color: #c28800;
 		font-size: 45px;
-		font-family: 'Open Sans', sans-serif;
+		font-family: 'Roboto', sans-serif;
 	}
 	a:hover {
 		text-decoration: none;
@@ -103,13 +103,10 @@ hr {
 #section_1_row {
   background-color: #d5dff1 !important;
   padding-top: 40px;
-  font-size: 18px;
-  .col-md-4 {
-    padding: 0px;
+  font-size: 20px;
     ul {
       padding-right: 10px;
-      padding-top: 30px !important;
-    }
+      padding-top: 20px !important;
   }
 }
 
@@ -119,7 +116,7 @@ hr {
   color: white;
   text-align: center;
   width: 100%;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 24px;
 }
 
@@ -176,6 +173,7 @@ hr {
   width: 500px !important;
   height: 50px !important;
   border: 3px #394760 solid !important;
+  font-size: 20px !important;
 }
 
 .email {
@@ -183,7 +181,6 @@ hr {
 }
 
 #form {
-  // width: 70%;
   input {
     width: 50%;
   }
@@ -195,26 +192,28 @@ hr {
   padding: 0 !important;
   margin-top: 5px !important;
   height: 50px !important;
+  font-size: 20px !important;
+  font-family: 'Pangolin', cursive;
 }
 
 #mc_embed_signup.button {
-  font-size: 20px;
+  font-size: 50px !important;
 }
 
-#section_3 {
+#overview {
   // background-image: url(bg2.JPG);
   height: 400px;
   color: #2d2f34;
   text-align: left;
   width: 100%;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 20px;
   background-color: #d5dff1;
 }
 
-#section_3_row {
+#overview_row {
   margin: 0;
-  padding-top: 30px;
+  padding-top: 40px;
 }
 
 #content {
@@ -236,11 +235,11 @@ hr {
   }
 }
 
-#section_4 {
+#curriculum {
   color: white;
   width: 100%;
-  height: 1000px;
-  font-size: 25px;
+  height: 900px;
+  font-size: 23px;
   text-align: center;
   margin: 0;
   background-image: url(thiscourse.png);
@@ -280,12 +279,13 @@ hr {
   }
 }
 
-#section_4_content {
+#curriculum_content {
   h2 {
     text-align: center;
-    font-size: 38px;
+    font-size: 42px;
     padding-top: 40px;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
+    font-family: 'Pangolin', cursive;
   }
 }
 
@@ -297,21 +297,21 @@ hr {
 #testimonial_1 {
   text-align: center;
   background-color: #394760 !important;
-  height:550px;
+  height:570px;
   color: white;
 }
 
 #testimonial_2 {
   text-align: center;
   background-color: #583c77 !important;
-  height:550px;
+  height:570px;
   color: white;
 }
 
 #testimonial_3 {
   text-align: center;
   background-color: #305f4f !important;
-  height:550px;
+  height:570px;
   color: white;
 }
 
@@ -326,16 +326,16 @@ hr {
     padding-top: 20px;
     text-align: center;
     font-size: 23px;
-    font-family: 'Sansita', sans-serif;
+    font-family: 'Pangolin', cursive;
   }
   p {
 
   }
-  font-size: 15px;
+  font-size: 17px;
   line-height: 28px;
   margin: 0;
   color: white;
-  height: 550px;
+  height: 570px;
 }
 
 #section_5_row {
@@ -343,25 +343,33 @@ hr {
 }
 
 #section_6 {
-  background-color: #2d2f34;
+  background-image: url(curriculum.png);
   color: white;
-  text-align: center;
+  text-align: left;
   width: 100%;
-  height: 600px;
+  height: 550px;
   font-size: 20px;
   #content {
     padding-top: 45px;
+    padding-left: 40px;
     h2 {
-      font-size: 23px;
+      font-size: 28px;
       line-height: 33px;
+      font-family: 'Pangolin', cursive;
     }
     h3 {
-      font-size: 21px;
+      line-height: 35px;
+      font-size: 22px;
       margin-bottom: 0;
     }
     ul {
       line-height: 35px;
       font-size: 20px;
+      // li {
+      //   list-style: none;
+      //   list-style-image: url(book.png);
+      //   font-size: 20px;
+      // }
     }
   }
 }
@@ -407,7 +415,7 @@ hr {
     padding-top: 20px;
     text-align: center;
     font-size: 23px;
-    font-family: 'Sansita', sans-serif;
+    font-family: 'Pangolin', cursive;
   }
   p {
 
@@ -439,12 +447,14 @@ hr {
   text-align: center;
   #email_oren {
     margin-left: 440px;
-    background-color: white;
     width: 400px;
-    height: 30px;
+    height: 35px;
     margin-top: 10px;
-    color: #2d2f34 !important;
+    padding-top: 5px;
+    color: white !important;
     border-radius: 3px;
-    font-size: 20px;
+    background-color: #841023 !important;
+    font-size: 20px !important;
+    font-family: 'Pangolin', cursive;
   }
 }

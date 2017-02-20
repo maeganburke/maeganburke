@@ -4,7 +4,7 @@
   width: 100%;
   -webkit-transition: 50ms all;
   transition: 50ms all;
-  font-family: 'Open Sans', sans-serif;
+  'Roboto', sans-serif;
 }
 
 /* line 12, /Users/Maegan/Desktop/Dev/Oren2/app/assets/stylesheets/sites.scss */
@@ -29,11 +29,11 @@ a:hover {
   margin: 7px 0 !important;
   font-size: 34px;
   color: white;
-  font-family: 'Sansita', sans-serif;
+  font-family: 'Pangolin', cursive;
 }
 /* line 31, /Users/Maegan/Desktop/Dev/Oren2/app/assets/stylesheets/sites.scss */
 #intro p, #intro h3 {
-  font-family: 'Open Sans', sans-serif;
+  'Roboto', sans-serif;
   font-size: 17px;
 }
 /* line 35, /Users/Maegan/Desktop/Dev/Oren2/app/assets/stylesheets/sites.scss */
@@ -48,7 +48,7 @@ a:hover {
   margin: 0;
   color: #c28800;
   font-size: 45px;
-  font-family: 'Open Sans', sans-serif;
+  'Roboto', sans-serif;
 }
 /* line 47, /Users/Maegan/Desktop/Dev/Oren2/app/assets/stylesheets/sites.scss */
 #intro a:hover {
@@ -160,7 +160,7 @@ hr {
 }
 
 /* line 139, /Users/Maegan/Desktop/Dev/Oren2/app/assets/stylesheets/sites.scss */
-#section_3 {
+#overview {
   background-image: url(bg2.png);
   color: white;
   text-align: center;
@@ -170,7 +170,7 @@ hr {
 }
 
 /* line 148, /Users/Maegan/Desktop/Dev/Oren2/app/assets/stylesheets/sites.scss */
-#section_3_row {
+#overview_row {
   margin: 0;
 }
 
