@@ -140,7 +140,7 @@ hr {
 
 #form {
   input {
-    width: 50% !important;
+    width: 80% !important;
   }
 }
 
@@ -155,7 +155,7 @@ hr {
 
 #mc_embed_signup.button {
   font-size: 10vh !important;
-  width: 80%;
+  width: 100%;
 }
 
 #overview {
@@ -251,21 +251,63 @@ hr {
 #testimonial_1 {
   text-align: center;
   background-color: #394760 !important;
-  height:110vh;
+  height:115vh;
   color: white;
 }
 
 #testimonial_2 {
   text-align: center;
   background-color: #583c77 !important;
-  height: 110vh;
+  height: 115vh;
   color: white;
 }
 
 #testimonial_3 {
   text-align: center;
   background-color: #305f4f !important;
-  height: 110vh;
+  height: 115vh;
+  color: white;
+}
+
+#testimonial_4 {
+  text-align: center;
+  background-color: #2d2f34 !important;
+  height: 115vh;
+  color: white;
+}
+
+#testimonial_5 {
+  text-align: center;
+  background-color: #305f4f !important;
+  height: 115vh;
+  color: white;
+}
+
+#testimonial_6 {
+  text-align: center;
+  background-color: #394760 !important;
+  height: 115vh;
+  color: white;
+}
+
+#testimonial_7 {
+  text-align: center;
+  background-color: #583c77 !important;
+  height: 115vh;
+  color: white;
+}
+
+#testimonial_8 {
+  text-align: center;
+  background-color: #394760 !important;
+  height: 115vh;
+  color: white;
+}
+
+#testimonial_9 {
+  text-align: center;
+  background-color: #2d2f34 !important;
+  height: 115vh;
   color: white;
 }
 
@@ -384,6 +426,19 @@ hr {
   text-align: center;
   background-color: #d5dff1 !important;
   color: white;
+}
+
+.hear_more {
+  text-align: center;
+  color: #841023 !important;
+  font-size: 4vh !important;
+  font-style: italic;
+  padding: 0;
+  margin: 0 !important;
+  width: 100%;
+  font-family: 'Pangolin', cursive;
+  background-color: #d5dff1 !important;
+  padding-bottom: 5px;
 }
 
 #section_10 {
