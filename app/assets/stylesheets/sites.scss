@@ -4,7 +4,6 @@
   -o-background-size: cover;
   background-size: cover;
   width: 100%;
-  transition: 50ms all;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -12,26 +11,20 @@ html {
   background-color: #394760;
 }
 
-a:hover {
-	text-decoration: none;
+.container {
+  width: 100% !important;
 }
 
 #home {
-  height: 650px;
+  height: 50em;
   margin: 0;
   .col-lg-4 {
     padding: 0;
   }
 }
 
-#intro1 {
-  background-image: url(intro1.png);
-  height: 100%;
-}
-
-#intro2 {
-  background-image: url(intro2.png);
-  height: 100%;
+.jumbotron {
+  padding: 0 !important;
 }
 
 #intro {
@@ -40,32 +33,30 @@ a:hover {
   color: white;
 	text-align: center;
 	#home_h1 {
-    padding-top: 110px;
-    padding-bottom: 20px;
-		margin: 7px 0 !important;
-		font-size: 50px;
+    padding-top: 1.5em;
+    padding-bottom: .3em;
+		font-size: 10vh;
 		color: white;
 		font-family: 'Pangolin', cursive;
 	}
   span {
     color: #DDEDC7 !important;
-    font-size: 20px;
-    line-height: 40px;
+    font-size: 4vh;
+    line-height: 1.5em;
   }
 	p, h3 {
 		font-family: 'Roboto', sans-serif;
-		font-size: 17px;
+		font-size: 3vh;
 	}
   h3 {
     margin-top: 10px;
-    font-size: 13px;
+    font-size: 3vh;
     padding-bottom: 10px;
   }
 	#h1 {
-		padding: 12px 0 !important;
+		padding: 1em 0 !important;
 		margin: 0;
 		color: #c28800;
-		font-size: 45px;
 		font-family: 'Roboto', sans-serif;
 	}
 	a:hover {
@@ -79,135 +70,114 @@ a:hover {
 
 hr {
   width: 270px;
-  border-top: black solid 1.5px !important;
+  border-top: white solid .01em !important;
   margin-top: 10px !important;
   margin-bottom: 10px !important;
 }
 
-#mini {
-  border-top: 1px solid #9e9e9e !important;
-  width: 220px;
-}
-
-#home_image {
-  height: 90%;
-}
-
-// section 1
 #section_1 {
-  height: 400px;
   background-color: #d5dff1 !important;
   color: #2d2f34;
 }
 
 #section_1_row {
   background-color: #d5dff1 !important;
-  padding-top: 40px;
-  font-size: 20px;
+  padding-top: .9em;
+  padding-bottom: .5em;
+  font-size: 3vh;
     ul {
-      padding-right: 10px;
-      padding-top: 20px !important;
+      padding-right: 1em;
+      padding-top: 1em !important;
   }
 }
 
 #section_2 {
-  height: 250px;
-  background-color: #37284d !important;
   color: white;
   text-align: center;
   width: 100%;
   font-family: 'Roboto', sans-serif;
-  font-size: 24px;
+  font-size: 3vh;
+  height: 10%;
 }
 
 #section_2_row {
   margin: 0;
+  height: 10%;
 }
 
 #benefit_1 {
   background-color: #394760 !important;
-  height: 250px;
 }
 
 #benefit_2 {
   background-color: #583c77 !important;
-  height: 250px;
 }
 
 #benefit_3 {
   background-color: #2d2f34 !important;
-  height: 250px;
 }
 
 #benefit_4 {
   background-color: #305f4f !important;
-  height: 250px;
-}
-
-#benefit_1, #benefit_2, #benefit_3, #benefit_4 {
-
 }
 
 .benefits {
-  padding-top: 65px;
-}
-
-#benefit_icon {
-  height: 50px;
-  width: auto;
+  p {
+    padding: 10px 0;
+  }
 }
 
 #signup {
   // height: 125px;
-  width: 100%;
+  // width: 100%;
   padding: 10px 0;
 }
 
 #mc_embed_signup_scroll {
   input {
-    width: 80%;
+    // width: 80%;
   }
 }
 
 #mc_embed_signup input.email {
-  width: 500px !important;
   height: 50px !important;
+  // width: 80%;
   border: 3px #394760 solid !important;
-  font-size: 20px !important;
+  font-size: 3vh !important;
 }
 
 .email {
-  width: 60%;
+  // width: 80%;
 }
 
 #form {
   input {
-    width: 50%;
+    width: 50% !important;
   }
 }
 
 #subscribe_button {
   background-color: #841023 !important;
-  width: 500px !important;
   padding: 0 !important;
   margin-top: 5px !important;
   height: 50px !important;
-  font-size: 20px !important;
+  font-size: 3vh !important;
   font-family: 'Pangolin', cursive;
 }
 
 #mc_embed_signup.button {
-  font-size: 50px !important;
+  font-size: 10vh !important;
+  width: 80%;
 }
 
 #overview {
   // background-image: url(bg2.JPG);
-  height: 400px;
+  // height: 400px;
   color: #2d2f34;
   text-align: left;
   width: 100%;
   font-family: 'Roboto', sans-serif;
-  font-size: 20px;
+  font-size: 3vh;
   background-color: #d5dff1;
 }
 
@@ -218,14 +188,14 @@ hr {
 
 #content {
   p {
-    font-size: 18px;
+    font-size: 2.7vh;
   }
   ul {
-    font-size: 15px;
+    font-size: 2vh;
   }
   h2 {
-    font-size: 17px;
-    margin-top: 20px;
+    font-size: 3vh;
+    margin-top: 3vh;
   }
 }
 
@@ -237,9 +207,9 @@ hr {
 
 #curriculum {
   color: white;
-  width: 100%;
-  height: 900px;
-  font-size: 23px;
+  // width: 100%;
+  // height: 900px;
+  font-size: 3vh;
   text-align: center;
   margin: 0;
   background-image: url(thiscourse.png);
@@ -251,38 +221,38 @@ hr {
   width: 90%;
   margin-left: 5%;
   p {
-    margin-top: 20px;
+    margin-top: 3vh;
   }
 }
 
 #icon_div {
-  margin-bottom: 20px;
+  margin-bottom: 3vh;
 }
 
 .circle_icon {
   border-radius: 50%;
   background-color: #305f4f;
-  height: 170px;
-  width: 170px;
+  max-height: 200px;
+  max-width: 200px;
   margin: auto;
   margin: 0;
   margin-top: 30px;
   margin-bottom: 35px;
-  margin-left: 90px;
+  margin-left: 12vh;
   img {
-    height: 100px;
+    max-height: 13vh;
     width: auto;
-    margin-top: 30px;
+    margin: 10px 0;
   }
   p {
-    margin-bottom: 20px;
+    margin-bottom: 3vh;
   }
 }
 
 #curriculum_content {
   h2 {
     text-align: center;
-    font-size: 42px;
+    font-size: 5vh;
     padding-top: 40px;
     padding-bottom: 40px;
     font-family: 'Pangolin', cursive;
@@ -297,45 +267,41 @@ hr {
 #testimonial_1 {
   text-align: center;
   background-color: #394760 !important;
-  height:570px;
+  height:110vh;
   color: white;
 }
 
 #testimonial_2 {
   text-align: center;
   background-color: #583c77 !important;
-  height:570px;
+  height: 110vh;
   color: white;
 }
 
 #testimonial_3 {
   text-align: center;
   background-color: #305f4f !important;
-  height:570px;
+  height: 110vh;
   color: white;
 }
 
 .testimony_picture {
-  height: 200px;
-  width: auto;
   padding: 15px 0;
+  max-height: 250px;
+  width: auto;
 }
 
 #section_5 {
   h2 {
-    padding-top: 20px;
+    padding-top: 3vh;
     text-align: center;
-    font-size: 23px;
+    font-size: 3vh;
     font-family: 'Pangolin', cursive;
   }
-  p {
-
-  }
-  font-size: 17px;
+  font-size: 2.7vh;
   line-height: 28px;
   margin: 0;
   color: white;
-  height: 570px;
 }
 
 #section_5_row {
@@ -346,30 +312,24 @@ hr {
   background-image: url(curriculum.png);
   color: white;
   text-align: left;
-  width: 100%;
   height: 550px;
-  font-size: 20px;
+  font-size: 3vh;
   #content {
     padding-top: 45px;
     padding-left: 40px;
     h2 {
-      font-size: 28px;
+      font-size: 5vh;
       line-height: 33px;
       font-family: 'Pangolin', cursive;
     }
     h3 {
       line-height: 35px;
-      font-size: 22px;
+      font-size: 4vh;
       margin-bottom: 0;
     }
     ul {
       line-height: 35px;
-      font-size: 20px;
-      // li {
-      //   list-style: none;
-      //   list-style-image: url(book.png);
-      //   font-size: 20px;
-      // }
+      font-size: 3vh;
     }
   }
 }
@@ -377,24 +337,24 @@ hr {
 #section_7 {
   background-color: #394760;
   background-image: url(group.png);
-  height: 600px;
-  font-size: 23px;
+  height: 400px;
+  font-size: 3vh;
   color: white;
   text-align: center;
 }
 
 #student_content {
-  padding-top: 160px;
   h2 {
+    padding-top: 70px;
     font-family: 'Pangolin', cursive;
-    font-size: 40px;
+    font-size: 6vh;
   }
 }
 
 #section_8 {
   background-color: #305f4f;
-  height: 550px;
-  font-size: 17px;
+  // height: 550px;
+  font-size: 3vh;
   color: white;
   text-align: center;
   p {
@@ -408,31 +368,26 @@ hr {
   padding-top: 45px;
   h2 {
     font-family: 'Pangolin', cursive;
-    font-size: 40px;
+    font-size: 6vh;
   }
 }
 
 #oren_pic {
-  height: 250px;
+  max-height: 250px;
   width: auto;
-  // margin: 20px 0 0 200px;
 }
 
 #section_9 {
   h2 {
-    padding-top: 20px;
+    padding-top: 3vh;
     text-align: center;
-    font-size: 23px;
+    font-size: 4vh;
     font-family: 'Pangolin', cursive;
   }
-  p {
-
-  }
-  font-size: 15px;
+  font-size: 3vh;
   line-height: 28px;
   margin: 0;
   color: white;
-  height: 310px;
 }
 
 #section_9_row {
@@ -445,24 +400,26 @@ hr {
   }
   text-align: center;
   background-color: #d5dff1 !important;
-  height: 310px;
   color: white;
 }
 
 #section_10 {
-  height: 500px;
   background-color: #d5dff1 !important;
   text-align: center;
+  width: 100%;
   #email_oren {
-    margin-left: 440px;
-    width: 400px;
-    height: 35px;
-    margin-top: 10px;
+    margin-left: 15px;
+    // height: 35px;
+    // margin-top: 10px;
     padding-top: 5px;
     color: white !important;
     border-radius: 3px;
     background-color: #841023 !important;
-    font-size: 20px !important;
+    font-size: 3vh !important;
     font-family: 'Pangolin', cursive;
   }
+}
+
+.fb-page {
+  margin-left: 15px;
 }
